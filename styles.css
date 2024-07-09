@@ -1,0 +1,31 @@
+/* styles.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url('open.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 20px; /* Sesuaikan jarak dari bawah sesuai kebutuhan */
+}
+
+.menu h1 {
+    font-size: 24px;
+    color: gray;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
